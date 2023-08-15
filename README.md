@@ -5,8 +5,8 @@ This script will connect to a specified SharePoint Online site or subsite and ge
 First, you must install the PowerShell module, PnP.Powershell using the following command from an administrative PowerShell prompt:
 ```Install-Module PnP.PowerShell -RequiredVersion 1.12.0```  
 ### Use
-- Run the MissingMetadata.ps1 file.  
-- Execute Get-MissingMetadata, supplying the site URL and the number of days of lookback:  
+- Open PowerShell ISE and load/run the MissingMetadata.ps1 file.  
+- In the command prompt, execute Get-MissingMetadata, supplying the site URL and the number of days of lookback:  
 ```Get-MissingMetadata -Site yourtenant.sharepoint.com/sites/sitename -Days 180```  
 - The example above will iterate through all libraries found in _sitename_ for items created in the past 180 days.  An output _sitename_.csv file will be created with your results.
 - The output file includes the following information about items missing mandatory metadata: "FileName","CreatedBy","MissingMetadata","FileLocation"
