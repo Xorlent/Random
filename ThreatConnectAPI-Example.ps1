@@ -4,15 +4,16 @@ $APIBaseURL = 'https://api.threatconnect.com'
 $accessID = 'youraccessIDhere'
 $secretKey = 'yoursecretkey'
 
-# Change the $APIURL value below as required for your use case
+# Change the $APIURL and $RequestMethod values below as required for your use case
 $APIURL = '/v2/owners'
+$RequestMethod = 'GET'
 
 # Generate Unix +%s date format required for API authentication
 $DTS = (Get-Date).ToUniversalTime() | Get-Date -UFormat %s
 $timestamp = $DTS.Split(".")
 
 # Compose the encrypted payload string
-$EncPayload = $APIURL + ':GET:' + $timestamp[0]
+$EncPayload = $APIURL + ':' + $RequestMethod + ':' + $timestamp[0]
 
 # Compose the request URL
 $APIURL = $APIBaseURL + $APIURL
@@ -35,7 +36,7 @@ $headerData = @{
    }
 
 # Perform the request
-$response = Invoke-WebRequest -Uri $APIURL -Header $headerData # -Method GET
+$response = Invoke-WebRequest -Uri $APIURL -Header $headerData -Method $RequestMethod
 
 # Display the results
 Write-Output $response
