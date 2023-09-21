@@ -79,7 +79,7 @@ $headerData = @{
 # Execute GET request.  Since we know the response format, create a friendly CSV output file
 if($URLMethod -eq 'GET') {
     $LaunchDTS = (Get-Date).ToString("MMddyy-HHmmss")
-    $outputFilePath = "./ThreatIntel-$LaunchDTS.txt"
+    $outputFilePath = "./ThreatIntel-$LaunchDTS.csv"
     Invoke-RestMethod -Uri $APIURL -Header $headerData -Method $URLMethod | Select-Object -ExpandProperty data | Select-Object $TypeHeaders[$RecordType] | Export-Csv $outputFilePath -NoTypeInformation
 }
 # Otherwise, execute the specified request and dump response output to console
