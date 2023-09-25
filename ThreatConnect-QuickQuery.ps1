@@ -46,10 +46,10 @@ if (($SelectedConfidence = Read-Host "Enter the desired confidence level from 0 
 $defaultDate = (Get-Date).AddDays(-7).ToString("yyyy-MM-dd")
 if (($SelectedDate = Read-Host "Enter the earliest record date desired.  Generally, more than a few weeks will exceed the non-paging API limit.  Press enter to accept the default of $defaultDate") -eq '') {$SelectedDate = $defaultDate}
 
-# Assemble the request URI
+# Assemble the request URI.  Adjust according to your desired TQL query:
 $URIString = '/api/v3/indicators?tql=(confidence > ' + $SelectedConfidence + ') and (indicatorActive=true) and (dateAdded > "' + $SelectedDate + '") and (typeName in (' + $SelectedType[$RecordType] + '))&resultLimit=10000'
 
-# Adjust according to your desired TQL query:
+# Escape invalid characters to build the request string
 $APIURL = [uri]::EscapeUriString($URIString)
 
 # GET to retrive data, POST to publish data, OPTIONS to get details about a specific API call:
