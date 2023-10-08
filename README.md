@@ -1,6 +1,6 @@
 # Random
 ## Cloudflare-Worker-Tips.md  
-Lessons learned while exploring and implementing Workers.  
+[Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
 ## MissingMetadata.ps1  
 [This script](https://github.com/Xorlent/Random/blob/main/MissingMetadata.md) will connect to a specified SharePoint Online site or subsite and generate a list of all items missing mandatory metadata  
 ## ThreatConnectAPI-Starter.ps1  
