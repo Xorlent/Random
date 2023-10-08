@@ -1,4 +1,6 @@
 # Random
+## Cloudflare-Worker-Tips.md  
+Lessons learned while exploring and implementing Workers.  
 ## MissingMetadata.ps1  
 This script will connect to a specified SharePoint Online site or subsite and generate a list of all items missing mandatory metadata  
   - Link: (https://github.com/Xorlent/Random/blob/main/MissingMetadata.md)
