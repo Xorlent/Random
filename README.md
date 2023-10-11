@@ -6,7 +6,7 @@
 ## ThreatConnectAPI-Starter.ps1  
 [This script is a PowerShell starter example to connect your project to ThreatConnect's API](https://github.com/Xorlent/Random/blob/main/ThreatConnectAPI-Starter.ps1)  
 ## ThreatConnect-QuickQuery.ps1  
-[A very simple query console to fetch IOCs.](https://github.com/Xorlent/Random/blob/main/ThreatConnect-QuickQuery.ps1)  Helpful for exploring data within ThreatConnect.  
+[A very simple query console to fetch Indicators.](https://github.com/Xorlent/Random/blob/main/ThreatConnect-QuickQuery.ps1)  Helpful for exploring data within ThreatConnect.  
 The following record types are supported:  
   1. IPs (malicious IP addresses)
   2. Hosts (malicious hostnames)
