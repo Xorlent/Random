@@ -16,4 +16,5 @@ The following record types are supported:
 ## Configuring modern/certificate-based app authentication for Office 365  
   - [Follow this guide published by Microsoft](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)  
 ## Hijacklibs catalog of hijack-able DLLs  
-(https://hijacklibs.net)
+  - https://hijacklibs.net
+  - [Possible mitigation strategy?](https://learn.microsoft.com/en-us/powershell/module/processmitigations/set-processmitigation?view=windowsserver2022-ps)
