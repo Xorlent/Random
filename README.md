@@ -17,4 +17,5 @@ The following record types are supported:
   - [Follow this guide published by Microsoft](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)  
 ## Hijacklibs catalog of hijack-able DLLs  
   - https://hijacklibs.net
+  - [Scanning tools](https://github.com/wietze/HijackLibs/wiki/)
   - [Possible mitigation strategy?](https://learn.microsoft.com/en-us/powershell/module/processmitigations/set-processmitigation?view=windowsserver2022-ps)
