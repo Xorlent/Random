@@ -19,3 +19,6 @@ The following record types are supported:
   - https://hijacklibs.net
   - [Scanning tools](https://github.com/wietze/HijackLibs/wiki/)
   - [Possible mitigation strategy?](https://learn.microsoft.com/en-us/powershell/module/processmitigations/set-processmitigation?view=windowsserver2022-ps)
+## Windows 11 Debloat script
+  - Appropriate for enterprise deployments; Great for removing all of the bundled games and useless apps, tracking and telemetry settings  
+  - https://github.com/Raphire/Win11Debloat
