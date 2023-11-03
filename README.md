@@ -3,6 +3,8 @@
 [Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
 ## MissingMetadata.ps1  
 [This script](https://github.com/Xorlent/Random/blob/main/MissingMetadata.md) will connect to a specified SharePoint Online site or subsite and generate a list of all items missing mandatory metadata  
+## FindUnquotedPaths.ps1
+[This script](https://github.com/Xorlent/Random/blob/main/FindUnquotedPaths.ps1) will connect to Active Directory, get a list of hosts based on the user configured search path, and check each online host for [unquoted service path vulnerabilities](https://attack.mitre.org/techniques/T1574/009/)  
 ## ThreatConnectAPI-Starter.ps1  
 [This script is a PowerShell starter example to connect your project to ThreatConnect's API](https://github.com/Xorlent/Random/blob/main/ThreatConnectAPI-Starter.ps1)  
 ## ThreatConnect-QuickQuery.ps1  
