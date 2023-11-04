@@ -1,8 +1,10 @@
 <#  This script requires Remote Server Administration Tools (RSAT)
- 
-If you receive Get-ADComputer errors, from an administrative PowerShell window, run the following:
+
+Prerequisites:
+1. If you receive Get-ADComputer errors, from an administrative PowerShell window, run the following:
     Add-WindowsCapability -Name RSAT.ActiveDirectory.DS-LDS.Tools* -Online
- 
+2. WinRM must be enabled and accessible from the host you run this tool on.
+
 #>
 
 # Adjust $OU to match the search scope for the computers you want to check for unquoted service paths
