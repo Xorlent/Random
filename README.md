@@ -24,3 +24,10 @@ The following record types are supported:
 ## Windows 11 Debloat script
   - Appropriate for enterprise deployments; Great for removing all of the bundled games and useless apps, tracking and telemetry settings  
   - https://github.com/Raphire/Win11Debloat
+## Editing or clearing special Active Directory object attributes
+  - If you ever encounter the following message when trying to edit an attribute in AD Users and Computers or ADSIEdit
+    - "There is no editor registered to handle this attribute type."
+  - Use Set-ADComputer PowerShell which is included with [RSAT](https://learn.microsoft.com/en-US/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
+  - To clear a value (example clears the msDS-AllowedToActOnBehalfOfOtherIdentity attribute):
+    - ```Set-ADComputer COMPUTERNAME -Clear msDS-AllowedToActOnBehalfOfOtherIdentity```
+  - To set or add to a value, use -Add or -Replace instead of -Clear.  [More info](https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-adcomputer?view=windowsserver2022-ps)
