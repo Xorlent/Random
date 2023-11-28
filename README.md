@@ -30,4 +30,7 @@ The following record types are supported:
   - Use Set-ADComputer PowerShell, included with [RSAT](https://learn.microsoft.com/en-US/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
   - To clear a value (example clears the msDS-AllowedToActOnBehalfOfOtherIdentity attribute):
     - ```Set-ADComputer COMPUTERNAME -Clear msDS-AllowedToActOnBehalfOfOtherIdentity```
-  - To set or add to a value, use -Add or -Replace instead of -Clear.  [More info](https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-adcomputer?view=windowsserver2022-ps)
+  - To set or add to a value, use -Add or -Replace instead of -Clear.  [More info](https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-adcomputer?view=windowsserver2022-ps)  
+## PowerShell Helpful Links
+  - [Automatic Variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-7.3)
+
