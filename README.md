@@ -1,6 +1,8 @@
 # Random
 ## Cloudflare-Worker-Tips.md  
 [Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
+## Duo-Admin-API-Starter.ps1
+This script is a PowerShell starter example to connect your project to Duo's Admin API  
 ## MissingMetadata.ps1  
 [This script](https://github.com/Xorlent/Random/blob/main/MissingMetadata.md) will connect to a specified SharePoint Online site or subsite and generate a list of all items missing mandatory metadata  
 ## FindUnquotedPaths.ps1
