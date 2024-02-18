@@ -9,7 +9,7 @@ I notice loads of people online struggling to get API authentication working.  T
 ## MissingMetadata.ps1  
 [This script](https://github.com/Xorlent/Random/blob/main/MissingMetadata.md) will connect to a specified SharePoint Online site or subsite and generate a list of all items missing mandatory metadata  
 ## ThreatConnectAPI-Starter.ps1  
-[This script is a PowerShell starter example to connect your project to ThreatConnect's API](https://github.com/Xorlent/Random/blob/main/ThreatConnectAPI-Starter.ps1)  
+[This script](https://github.com/Xorlent/Random/blob/main/ThreatConnectAPI-Starter.ps1) is a PowerShell starter example to connect your project to ThreatConnect's API  
 ## ThreatConnect-QuickQuery.ps1  
 [A very simple query console to fetch Indicators.](https://github.com/Xorlent/Random/blob/main/ThreatConnect-QuickQuery.ps1)  Helpful for exploring data within ThreatConnect.  
 The following record types are supported:  
