@@ -2,7 +2,7 @@
 ## Cloudflare-Worker-Tips.md  
 [Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
 ## Duo-Admin-API-Starter.ps1
-[This script is a PowerShell starter example to connect your project to Duo's Admin API](https://github.com/Xorlent/Random/blob/main/Duo-Admin-API-Starter.ps1)  
+[This script](https://github.com/Xorlent/Random/blob/main/Duo-Admin-API-Starter.ps1) is a PowerShell starter example to connect your project to Duo's Admin API  
 I notice loads of people online struggling to get API authentication working.  This minimal example successfully implements Admin API authentication in PowerShell with no dependencies.  
 ## FindUnquotedPaths.ps1
 [This script](https://github.com/Xorlent/Random/blob/main/FindUnquotedPaths.ps1) will connect to Active Directory, get a list of hosts based on the user configured search path, and check each host for [unquoted service path vulnerabilities](https://attack.mitre.org/techniques/T1574/009/). Results are printed to the PowerShell console  
