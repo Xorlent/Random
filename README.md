@@ -1,4 +1,6 @@
 # Random
+## Cloudflare-Access+EntraID.md
+[Lessons learned using Cloudflare Access SSO with Entra ID](https://github.com/Xorlent/Random/blob/main/Cloudflare-Access%2BEntraID.md)
 ## Cloudflare-Worker-Tips.md  
 [Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
 ## Duo-Admin-API-Starter.ps1
