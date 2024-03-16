@@ -27,7 +27,7 @@ The following record types are supported:
   - [Scanning tools](https://github.com/wietze/HijackLibs/wiki/)
   - [Possible mitigation strategy?](https://github.com/Xorlent/Fix-Exploitable-DLLs)
 ## Windows 11 Debloat script
-  - Appropriate for enterprise deployments; Great for removing all of the bundled games and useless apps, tracking and telemetry settings  
+  _Appropriate for enterprise deployments; Great for removing all of the bundled games and useless apps, tracking and telemetry settings_
   - https://github.com/Raphire/Win11Debloat
 ## Editing or clearing special Active Directory object attributes
   _If you ever encounter the following message when trying to edit an attribute in AD Users and Computers or ADSIEdit: "There is no editor registered to handle this attribute type."_
