@@ -3,6 +3,9 @@
 [Lessons learned using Cloudflare Access SSO with Entra ID](https://github.com/Xorlent/Random/blob/main/Cloudflare-Access%2BEntraID.md)
 ## Cloudflare-Worker-Tips.md  
 [Lessons learned while exploring and implementing Workers](https://github.com/Xorlent/Random/blob/main/Cloudflare-Worker-Tips.md)  
+## CoPilotGPO.png
+Screenshot showing the location in the user group policy tree where Microsoft's CoPilot can be disabled.  
+For standalone hosts: ```reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f```
 ## Duo-Admin-API-Starter.ps1
 [This script](https://github.com/Xorlent/Random/blob/main/Duo-Admin-API-Starter.ps1) is a PowerShell starter example to connect your project to Duo's Admin API  
 I notice loads of people online struggling to get API authentication working.  This minimal example successfully implements Admin API authentication in PowerShell with no dependencies.  
